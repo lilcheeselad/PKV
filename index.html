@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Orelega+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>ПКВ</title>
+</head>
+
+<body>
+  
+  <div class="wrapper">
+    <header class="header" style="background-image: url('images/main-bg.jpg');">
+      <div class="header__inner">
+        <div class="container">
+          <div class="header__top">
+            <a class="logo" href="#">
+              <img class="logo__img" src="images/logo.svg" alt="">
+            </a>
+            <nav class="menu">
+              <button class="menu__btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Про нас</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Меню</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Відгуки</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <h1 class="header__title">Знижка на дитячі замовлення 20%</h1>
+    </header>
+    <main class="main">
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title section-title">про нас</h2>
+          <div class="about__us">
+            <div class="about__us-text">
+              <p>Сімейне кафе “ Перша Конотопська Вафля” - це місце, де ви можете насолодитися смачними вафлями та
+                провести час у затишній атмосфері разом з вашою родиною та друзями.</p>
+              <p>Наша історія почалася з невеликої ідеї - створити місце, де люди зможуть смакувати найсмачніші вафлі в
+                Конотопі.</p>
+              <p>Ми гордо представляємо наш найбільший скарб - неймовірно смачні вафлі, які готують наші досвідчені
+                майстри з душею та великою любов'ю. З соковитими начинками, свіжими фруктами, ароматними травами та
+                ніжними вершками, наші вафлі стають справжнім твором кулінарного мистецтва. </p>
+            </div>
+            <img class="about__us-img" src="images/about.jpg" alt="">
+          </div>
+          <h2 class="why-we__title section-title">Чому ми найкращі?</h2>
+          <div class="why-we__inner">
+            <img class="why-we__img" src="images/why-we.jpg" alt="">
+            <ul class="why-we__list">
+              <li class="why-we__list-item">Кейтерингінг</li>
+              <li class="why-we__list-item">Доставка</li>
+              <li class="why-we__list-item">Дні народження</li>
+              <li class="why-we__list-item">Ігрова зона</li>
+              <li class="why-we__list-item">Тільки свіжі продукти</li>
+              <li class="why-we__list-item">Привітливий персонал</li>
+              <li class="why-we__list-item">Сімейна атмосфера</li>
+              <li class="why-we__list-item">Вафлі на будь-який смак</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="diy">
+        <div class="container">
+          <h2 class="diy__title section-title">Меню</h2>
+          <h3 class="diy__subtitle">Збери свою вафлю</h3>
+          <div class="diy__inner">
+            <div class="diy__list">
+              <div class="diy__item">
+                <h4 class="diy__text">Солодка</h4>
+                <form class="diy__form-1">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-1" type="checkbox" value="val1">
+                    <label for="diy__checkbox-1">Шоколад 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-2" type="checkbox" value="val1">
+                    <label for="diy__checkbox-2">Ваніль 35 грн</label>
+                  </div>
+                </form>
+              </div>
+              <div class="diy__item">
+                <h4 class="diy__text">Солона</h4>
+                <form class="diy__form-2">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-3" type="checkbox" value="val1">
+                    <label for="diy__checkbox-3">35 грн</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <h4 class="diy__text tac">Наповнення в кульку</h4>
+            <div class="diy__list">
+              <div class="diy__item">
+                <form class="diy__form-3">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-4" type="checkbox" value="val1">
+                    <label for="diy__checkbox-4">Баунті 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-5" type="checkbox" value="val1">
+                    <label for="diy__checkbox-5">Снікерс 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-6" type="checkbox" value="val1">
+                    <label for="diy__checkbox-6">Марс 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-7" type="checkbox" value="val1">
+                    <label for="diy__checkbox-7">Скітлс 40 грн</label>
+                  </div>
+                </form>
+              </div>
+              <div class="diy__item">
+                <form class="diy__form-4">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-8" type="checkbox" value="val1">
+                    <label for="diy__checkbox-8">Мисливські ковбаски 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-9" type="checkbox" value="val1">
+                    <label for="diy__checkbox-9">Курка 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-10" type="checkbox" value="val1">
+                    <label for="diy__checkbox-10">Шинка-Сир 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-11" type="checkbox" value="val1">
+                    <label for="diy__checkbox-11">Фалафель 40 грн</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <h4 class="diy__text tac">Середина</h4>
+            <div class="diy__list">
+              <div class="diy__item">
+                <form class="diy__form-5">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-12" type="checkbox" value="val1">
+                    <label for="diy__checkbox-12">Морозиво 30 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-13" type="checkbox" value="val1">
+                    <label for="diy__checkbox-13">Вершки 30 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-14" type="checkbox" value="val1">
+                    <label for="diy__checkbox-14">Шоколадна паста 25 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-15" type="checkbox" value="val1">
+                    <label for="diy__checkbox-15">Згущене молоко 25 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-16" type="checkbox" value="val1">
+                    <label for="diy__checkbox-16">Топінг</label>
+                  </div>
+                </form>
+              </div>
+              <div class="diy__item">
+                <form class="diy__form-6">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-17" type="checkbox" value="val1">
+                    <label for="diy__checkbox-17">Морква, огірок, лист салату 30 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-18" type="checkbox" value="val1">
+                    <label for="diy__checkbox-18">Помідор,огірок, лист салату 30 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-19" type="checkbox" value="val1">
+                    <label for="diy__checkbox-19">Соус</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <h4 class="diy__text tac">Додай ще:</h4>
+            <div class="diy__list">
+              <div class="diy__item">
+                <form class="diy__form-7">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-20" type="checkbox" value="val1">
+                    <label for="diy__checkbox-20">Шоколадна стружка 10 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-21" type="checkbox" value="val1">
+                    <label for="diy__checkbox-21">Печиво 10 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-22" type="checkbox" value="val1">
+                    <label for="diy__checkbox-22">Свіжі фрукти(сезонно) 20 грн </label>
+                  </div>
+                </form>
+              </div>
+              <div class="diy__item">
+                <form class="diy__form-8">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-23" type="checkbox" value="val1">
+                    <label for="diy__checkbox-23">Соус 10 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-24" type="checkbox" value="val1">
+                    <label for="diy__checkbox-24">Сир 15 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-25" type="checkbox" value="val1">
+                    <label for="diy__checkbox-25">Огірок солоний 15 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-26" type="checkbox" value="val1">
+                    <label for="diy__checkbox-26">Огірок свіжий 10 грн </label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-27" type="checkbox" value="val1">
+                    <label for="diy__checkbox-27">Помідор 10 грн</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <h4 class="diy__text tac">Напої</h4>
+            <div class="diy__list">
+              <div class="diy__item">
+                <form class="diy__form-7">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-28" type="checkbox" value="val1">
+                    <label for="diy__checkbox-28">Лимонад 0,3 л - 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-29" type="checkbox" value="val1">
+                    <label for="diy__checkbox-29">Лимонад 0,5 л - 50 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-30" type="checkbox" value="val1">
+                    <label for="diy__checkbox-30">Апельсиновий фреш - 75 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-31" type="checkbox" value="val1">
+                    <label for="diy__checkbox-31">Мохіто б/а 0,3 л - 60 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-32" type="checkbox" value="val1">
+                    <label for="diy__checkbox-32">Молочний коктейль - 50 грн</label>
+                  </div>
+                </form>
+              </div>
+              <div class="diy__item">
+                <form class="diy__form-8">
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-33" type="checkbox" value="val1">
+                    <label for="diy__checkbox-33">Еспрессо - 20 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-34" type="checkbox" value="val1">
+                    <label for="diy__checkbox-34">Американо - 25 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-35" type="checkbox" value="val1">
+                    <label for="diy__checkbox-35">Американо з молоком - 35 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-36" type="checkbox" value="val1">
+                    <label for="diy__checkbox-36">Латте - 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-37" type="checkbox" value="val1">
+                    <label for="diy__checkbox-37">Капучіно - 40 грн</label>
+                  </div>
+                  <div class="diy__checkboxex">
+                    <input class="diy__checkbox" id="diy__checkbox-38" type="checkbox" value="val1">
+                    <label for="diy__checkbox-38">Гарячий шоколад 50 грн</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <button class="diy__btn open-button" onclick="openForm()">Замовити</button>
+          </div>
+        </div>
+      </section>
+      <section class="easy">
+        <div class="container">
+          <h2 class="easy__title section-title">Замовляти легко:</h2>
+          <div class="easy__inner">
+            <div class="easy__way">
+              <img class="easy__way-img" src="images/easy-1.svg" alt="">
+              <p class="easy__way-text">Замовлення на сайті</p>
+            </div>
+            <div class="easy__way">
+              <img class="easy__way-img" src="images/easy-2.svg" alt="">
+              <p class="easy__way-text">Підтвердження замовлення</p>
+            </div>
+            <div class="easy__way">
+              <img class="easy__way-img" src="images/easy-3.svg" alt="">
+              <p class="easy__way-text">Доставка</p>
+            </div>
+            <div class="easy__way">
+              <img class="easy__way-img" src="images/easy-4.svg" alt="">
+              <p class="easy__way-text">Оплата</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container">
+          <h2 class="gallery__title section-title">Галерея</h2>
+          <div class="gallery__slider">
+            <div class="swiper gallery-swiper gallery-swiper--1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-7.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-8.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-7.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-8.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-7.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-8.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-7.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-8.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          
+            <div class="swiper gallery-swiper gallery-swiper--2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-7.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-7.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-7.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-7.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper gallery-swiper gallery-swiper--3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper gallery-swiper gallery-swiper--4">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__img" src="images/slider-6.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+            
+          </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h2 class="reviews__title section-title">Відгуки</h2>
+          <div class="reviews__slider">
+            <div class="swiper reviews-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide reviews-slide">
+                  <img class="reviews__slide-img" src="images/reviews-1.jpg" alt="">
+                  <div class="reviews__slide-desc">
+                    <p class="reviews__slide-name">Москаленко Даша</p>
+                    <p class="reviews__slide-text">Вперше відвідала ваше кафе, хочу відмітити привітність персоналу.</p>
+                    <p class="reviews__slide-text">Дуже смачні вафлі, цього разу брала солодку, планую повернутись щоб
+                      спробувати ще солону. На даний момент з морозивом , шоколадною пастою і фруктами - мій фаворит.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide reviews-slide">
+                  <img class="reviews__slide-img" src="images/reviews-2.jpg" alt="">
+                  <div class="reviews__slide-desc">
+                    <p class="reviews__slide-name">Ганжа Максим</p>
+                    <p class="reviews__slide-text">Були у вас з дружиною і сином, дуже класна атмосфера, підкупила
+                      можливість спокійно поїсти і випити каву, поки син зайнятий у ігровій :)</p>
+                    <p class="reviews__slide-text">Вафлі дуже смачні, спробували різні - усі залишились задоволені.</p>
+                    <p class="reviews__slide-text">Будемо вашими постійними клієнтами.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide reviews-slide">
+                  <img class="reviews__slide-img" src="images/reviews-1.jpg" alt="">
+                  <div class="reviews__slide-desc">
+                    <p class="reviews__slide-name">Москаленко Даша</p>
+                    <p class="reviews__slide-text">Вперше відвідала ваше кафе, хочу відмітити привітність персоналу.</p>
+                    <p class="reviews__slide-text">Дуже смачні вафлі, цього разу брала солодку, планую повернутись щоб
+                      спробувати ще солону. На даний момент з морозивом , шоколадною пастою і фруктами - мій фаворит.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide reviews-slide">
+                  <img class="reviews__slide-img" src="images/reviews-2.jpg" alt="">
+                  <div class="reviews__slide-desc">
+                    <p class="reviews__slide-name">Ганжа Максим</p>
+                    <p class="reviews__slide-text">Були у вас з дружиною і сином, дуже класна атмосфера, підкупила
+                      можливість спокійно поїсти і випити каву, поки син зайнятий у ігровій :)</p>
+                    <p class="reviews__slide-text">Вафлі дуже смачні, спробували різні - усі залишились задоволені.</p>
+                    <p class="reviews__slide-text">Будемо вашими постійними клієнтами.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.973228573509!2d33.206757038179674!3d51.23798792852668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412a498cc0efcfa5%3A0x25eb083090f90f4a!2z0L_RgNC-0YHQv9C10LrRgiDQnNC40YDRgywgNywg0JrQvtC90L7RgtC-0L8sINCh0YPQvNGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA0MTYwMA!5e0!3m2!1suk!2sua!4v1703686001026!5m2!1suk!2sua"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__desc">
+            <a class="footer__logo" href="#">
+              <img class="footer__logo-img" src="images/logo.svg" alt="">
+            </a>
+            <p class="footer__text">Сімейне кафе “ Перша Конотопська Вафля” - це місце, де ви можете насолодитися
+              смачними вафлями та провести час у затишній атмосфері разом з вашою родиною та друзями.</p>
+          </div>
+          <div class="footer__info">
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Про нас</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Меню</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Відгуки</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__social">
+              <p class="footer__social-text">Ми у соціальних мережах</p>
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <a class="footer__social-link footer__social-instagram" href="#">instagram</a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link footer__social-facebook" href="#">Facebook</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__contacts">
+              <p class="footer__contacts-text">Контакти</p>
+              <a class="footer__contacts-phone" href="tel: 380687654554">+380687654554</a>
+              <a class="footer__contacts-phone" href="tel: 380937654554">+380937654554</a>
+              <a class="footer__contacts-email" href="mailto: pkv@gmail.com">pkv@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copy">2023 <span>Design by Oksana Radchenko</span></p>
+          <a class="footer__policy" href="#">Політика конфіденційності</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="bg-form" id="bgForm"></div>
+  <div class="form-popup" id="myForm">
+    <form action="#" class="form-container">
+      <input type="text" placeholder="Ім'я" name="name" required>
+      <input type="text" placeholder="Телефон" name="phone" required>
+      <input type="text" placeholder="Адреса" name="email" required>
+      <button type="submit" class="btn">Відправити</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Закрити</button>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
